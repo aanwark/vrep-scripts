@@ -1,4 +1,19 @@
 -- This is a threaded script, and is just an example!
+--[[
+
+This script can be used to manually control a six degrees of freedom arm type manipulator (For example: UR10, UR5, etc)
+with the keyboard.
+
+Key Mapping:
+
+    t, f -  Joint 1
+    y, g - Joint 2
+    u, h - Joint 3
+    i, j - Joint 4
+    o, k - Joint 5 
+    p,l  - Joint 6
+
+]]
 
 function sysCall_threadmain()
 
